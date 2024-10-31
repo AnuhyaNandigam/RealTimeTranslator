@@ -7,4 +7,5 @@ com\example\realtimetranslator\services\AuthService.class
 com\example\realtimetranslator\dtos\LoginRequestDto.class
 com\example\realtimetranslator\dtos\LoginResponseDto.class
 com\example\realtimetranslator\RealTimeTranslatorApplication.class
+com\example\realtimetranslator\configurations\WebConfig.class
 com\example\realtimetranslator\enums\ResponseStatus.class
