@@ -1,0 +1,10 @@
+com\example\realtimetranslator\dtos\RegisterResponseDto.class
+com\example\realtimetranslator\models\User.class
+com\example\realtimetranslator\controllers\AuthController.class
+com\example\realtimetranslator\dtos\RegisterRequestDto.class
+com\example\realtimetranslator\repositories\UserRepository.class
+com\example\realtimetranslator\services\AuthService.class
+com\example\realtimetranslator\dtos\LoginRequestDto.class
+com\example\realtimetranslator\dtos\LoginResponseDto.class
+com\example\realtimetranslator\RealTimeTranslatorApplication.class
+com\example\realtimetranslator\enums\ResponseStatus.class

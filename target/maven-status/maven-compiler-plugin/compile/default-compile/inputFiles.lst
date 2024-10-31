@@ -1,0 +1,10 @@
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\controllers\AuthController.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\dtos\LoginRequestDto.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\dtos\LoginResponseDto.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\dtos\RegisterRequestDto.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\dtos\RegisterResponseDto.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\enums\ResponseStatus.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\models\User.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\RealTimeTranslatorApplication.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\repositories\UserRepository.java
+C:\Users\ManikantaAbburi\IdeaProjects\RealTimeTranslator\src\main\java\com\example\realtimetranslator\services\AuthService.java
