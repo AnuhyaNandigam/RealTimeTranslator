@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")  // Allow CORS for all endpoints
-                .allowedOrigins("*")  // Allow requests from any origin
+                .allowedOrigins("https://manikantaabburi.github.io/Real-Time-Translator-Website")  // Allow requests from any origin
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")  // Specify allowed methods
                 .allowedHeaders("*")
                 .allowCredentials(false);  // Allow credentials if needed
