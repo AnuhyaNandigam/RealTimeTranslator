@@ -5,6 +5,7 @@ import com.example.realtimetranslator.dtos.LoginResponseDto;
 import com.example.realtimetranslator.dtos.RegisterRequestDto;
 import com.example.realtimetranslator.dtos.RegisterResponseDto;
 import com.example.realtimetranslator.enums.ResponseStatus;
+import com.example.realtimetranslator.models.User;
 import com.example.realtimetranslator.services.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,12 +21,13 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<LoginResponseDto> login(@RequestBody LoginRequestDto requestDto) {
-        boolean status = authService.login(requestDto);
+        User user = authService.login(requestDto);
         LoginResponseDto responseDto = new LoginResponseDto();
 
-        if (status) {
+        if (user != null) {
             responseDto.setResponseStatus(ResponseStatus.SUCCESS);
             responseDto.setMsg("User logged in successfully");
+            responseDto.setUser(user);
             return ResponseEntity.ok(responseDto);
         }else{
             responseDto.setResponseStatus(ResponseStatus.FAILURE);

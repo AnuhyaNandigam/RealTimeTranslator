@@ -32,14 +32,18 @@ public class AuthService {
         return true;
     }
 
-    public boolean login(LoginRequestDto requestDto) {
+    public User login(LoginRequestDto requestDto) {
         Optional<User> userOptional = userRepository.getByEmail(requestDto.getEmail());
 
         if(userOptional.isEmpty()){
-            return false;
+            return  null;
         }
 
         User user = userOptional.get();
-        return user.getPassword().equals(requestDto.getPassword());
+        if(user.getPassword().equals(requestDto.getPassword())){
+            return user;
+        }else{
+            return null;
+        }
     }
 }
