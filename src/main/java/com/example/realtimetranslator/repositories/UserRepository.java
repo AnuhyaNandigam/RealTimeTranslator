@@ -1,7 +1,6 @@
 package com.example.realtimetranslator.repositories;
 
 import com.example.realtimetranslator.models.User;
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
